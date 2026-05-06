@@ -1,0 +1,44 @@
+{
+  "name": "build-flutter-apps",
+  "version": "0.1.0",
+  "description": "Official Flutter and Dart agent skills with the Dart/Flutter MCP server for AI-assisted app development.",
+  "author": {
+    "name": "Shahid",
+    "email": "shahidhussain0212@gmail.com",
+    "url": ""
+  },
+  "homepage": "https://docs.flutter.dev/ai",
+  "repository": "",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "flutter",
+    "dart",
+    "mcp",
+    "agent-skills"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Build Flutter Apps",
+    "shortDescription": "Build, test, and fix Flutter apps with official Dart and Flutter skills.",
+    "longDescription": "Adds the official Flutter and Dart agent skills from flutter/skills and dart-lang/skills, plus MCP configuration for the official Dart/Flutter MCP server.",
+    "developerName": "Shahid",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Code",
+      "Analyze",
+      "MCP"
+    ],
+    "websiteURL": "https://docs.flutter.dev/ai",
+    "privacyPolicyURL": "https://policies.google.com/privacy",
+    "termsOfServiceURL": "https://policies.google.com/terms",
+    "defaultPrompt": [
+      "Build this Flutter feature using the official Flutter and Dart skills.",
+      "Fix the current Flutter analyzer errors using the Dart/Flutter MCP server where available.",
+      "Add tests for this Flutter feature using the official testing skills."
+    ],
+    "brandColor": "#02569B",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

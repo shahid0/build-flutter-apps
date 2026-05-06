@@ -1,0 +1,20 @@
+{
+  "name": "local-codex-plugins",
+  "interface": {
+    "displayName": "Local Codex Plugins"
+  },
+  "plugins": [
+    {
+      "name": "build-flutter-apps",
+      "source": {
+        "source": "local",
+        "path": "./plugins/build-flutter-apps"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
